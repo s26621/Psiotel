@@ -1,0 +1,204 @@
+#menu{
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #ab5852;
+  color: white;
+  font-size: 40px;
+  font-family: Algerian, serif;
+  border-bottom: solid #eadaa0 10px;
+  position: sticky;
+  padding-bottom: 10px;
+  /*Bahnschrift, Times, "Bodoni MT", "Felix Titling"*/
+  #menu-na-pasku{
+    list-style-type: none;
+    font-family: Felix Titling, serif;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #ab5852;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    .nawigacja{
+      float: right;
+      font-size: 35px;
+      border-left: #eadaa0 2px solid;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 35px 16px 34px;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: #8F4A45;
+      height: fit-content;
+    }
+    a.active {
+      background-color: #d69e49;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0 10px;
+      overflow: hidden;
+    }
+  }
+
+  .jezyk-przycisk{
+    height: 40px;
+    width: 100%;
+  }
+
+}
+
+
+
+#glowna{
+  min-height: 600px;
+  background-image: url("../public/tłapki.jpg");
+  font:  18px/1.5 Bahnschrift, serif;
+  padding: 30px;
+  /*"Cooper Black", */
+  h1, h2{
+    font-family: Cambria serif;
+  }
+
+  button{
+    font-size: 20px;
+    color: white;
+    background-color: #ab5852;
+    padding: 5px;
+    margin: 5px 0 5px 10px;
+    border-radius: 10px;
+  }
+
+  button:disabled{
+    font-size: 20px;
+    color: black;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px 0 5px 10px;
+    border-radius: 10px;
+  }
+
+  #opinia{
+    p {
+      border: ridge #d69e49 5px;
+      padding: 10px;
+      font-family: Century, sans-serif;
+    }
+  }
+
+  table{
+    border: ridge 8px #ab5852;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 40px auto;
+    th{
+      border: solid 5px #ab5852;
+      color: darkred;
+      padding: 10px;
+    }
+    td{
+      border: solid 2px #ab5852;
+      padding: 5px;
+    }
+    .tabela-oferta{
+      border-right: solid 5px #ab5852;
+      font-weight: bold;
+    }
+    .tabela-srodek{
+      border-right: solid 4px #ab5852;
+    }
+  }
+
+
+  form{
+    vertical-align: center;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px 30px;
+    align-self: center;
+    horiz-align: center;
+    border: outset 20px #eadaa0;
+    text-align: center;
+    align-content: center;
+    /*margin-top: 20px;*/
+    margin: 40px auto;
+    input{
+      font-size: 20px;
+    }
+    label{
+      font-size: 20px;
+    }
+  }
+
+  #uslugi{
+    li {
+      padding: 20px 0 20px 60px;
+      list-style: none;
+      background-image: url("../public/łapka_lista.png");
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 40px;
+    }
+  }
+
+  #recepcja-img{
+    width: 100%;
+  }
+
+  .error-wiadomosc{
+    color: red;
+    font-weight: bold;
+  }
+  .error-pole{
+    border-color: red;
+    border-style: solid;
+  }
+}
+
+#stopka{
+  background-color: #476066;
+  color: white;
+  font-family: Georgia, sans-serif;
+  border-top: solid 10px #838469;
+  height: max-content;
+  #menu-na-stopce{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #476066;
+    position: static;
+    bottom: 0;
+    left: 0;
+    a{
+      color: white;
+    }
+    #w-srodku-kontakt, #w-srodku-partnerzy{
+      padding-bottom: 20px;
+      padding-left: 0;
+    }
+    #kontakt, #partnerzy{
+      align-content: center;
+      float: left;
+      padding: 0 25px 0 40px;
+      border-right: #838469 2px solid;
+      color: white;
+    }
+    #motto{
+      font-family: Ink Free, cursive;
+      float: left;
+      padding: 30px 25px;
+      font-size: 50px;
+      color: #eadaa0;
+    }
+  }
+}
