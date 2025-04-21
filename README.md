@@ -1,5 +1,3 @@
-Psiotel is a site of a fake dog hotel that allows to create account and manage users', reservations', and dogs' data. 
-
-Relational database has three tables: User, Reservation and Dog. All data can be created, read, updated and deleted using frontend. Users can only see and modify data related to them, unless they are an administrator.
-
-App is written in JavaScript. Backend uses Node.js, and frontend uses React + CSS. 
+Psiotel is a fake dog hotel website that allows users to create accounts and manage data related to clients, dogs, and reservations.
+It’s a single-page application that features user authentication, form validation, support for multiple user roles, dynamic page rendering, and real-time language switching between Polish and English. All data operations — creating, reading, updating, and deleting — can be performed entirely through the UI, without need to interact directly with the backend.
+The frontend is built with React, HTML, JavaScript, and CSS, while the backend is powered by Node.js.
